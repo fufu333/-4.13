@@ -7,7 +7,7 @@
                 <button type="button" class="btn btn-default">修改密码</button>
                 <button type="button" class="btn btn-default">退出登录</button>
             </div>
-            <div class="btn-group" role="group" aria-label="..."><a href="#">点击查看Github仓库</a></div>
+            <div class="btn-group" role="group" aria-label="..."><a href="https://github.com/fufu333/-4.13.git">点击查看Github仓库</a></div>
         </div>
     </div>
 </template>
