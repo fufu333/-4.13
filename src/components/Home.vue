@@ -1,19 +1,22 @@
 <template>
-  <div class="carousel-container">
-    <div class="carousel-slide" :style="{ backgroundImage: `url(${currentImage})`, transition: 'transform 0.5s ease' }"
-      @click="goToVideo"></div>
-    <button @click="prevImage" :disabled="currentIndex === 0" class="carousel-arrow carousel-arrow-prev"><i
-        class="iconfont icon-xiangzuojiantou"></i></button>
-    <button @click="nextImage" :disabled="currentIndex === images.length - 1"
-      class="carousel-arrow carousel-arrow-next"><i class="iconfont icon-xiangyoujiantou"></i></button>
-  </div>
+  <div class="carousel-container">  
+    <div class="carousel-slide" :style="{ backgroundImage: `url(${currentImage})`, transition: 'transform 0.5s ease' }"  
+      @click="goToVideo"></div>  
+    <button @click="prevImage" :disabled="currentIndex === 0" class="carousel-arrow carousel-arrow-prev">  
+      <i class="iconfont icon-xiangzuojiantou"></i>  
+    </button>  
+    <button @click="nextImage" :disabled="currentIndex === onlineImages.length - 1"  
+      class="carousel-arrow carousel-arrow-next">  
+      <i class="iconfont icon-xiangyoujiantou"></i>  
+    </button>  
+  </div> 
 
   <div class="container">
     <div class="text">正在热播</div>
     <div class="row">
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -26,7 +29,7 @@
 
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -39,7 +42,7 @@
 
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -52,7 +55,7 @@
 
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -65,7 +68,7 @@
 
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -78,7 +81,7 @@
 
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -91,7 +94,7 @@
 
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -104,7 +107,7 @@
 
       <div class="col-lg-1">
         <div class="nail">
-          <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+          <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
           <div class="caption">
             <span class="aa">重启之极海听雷</span>
             <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -120,70 +123,59 @@
 </template>
 
 <script>
-import { ref, onMounted, computed, watch, onBeforeUnmount } from 'vue';
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
 import { useRouter } from 'vue-router';
 
-import image1 from '../assets/images/1.jpg';
-import image2 from '../assets/images/2.jpg';
-import image3 from '../assets/images/3.jpg';
-
-export default {
-  name: 'Home',
-  setup() {
-    const images = [image1, image2, image3];
-    const currentIndex = ref(0);
-    const intervalId = ref(null);
-    const router = useRouter();
-
-    const currentImage = computed(() => images[currentIndex.value]);
-
-    const nextImage = () => {
-      currentIndex.value = (currentIndex.value + 1) % images.length;
-    };
-
-    const prevImage = () => {
-      currentIndex.value = (currentIndex.value - 1 + images.length) % images.length;
-    };
- 
+  
+export default {  
+  name: 'Home',  
+  setup() {  
+    const onlineImages = [  
+      'https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FiDJ6JytU-56Y2aGX_M4Cl5I9ZXK.jpg',  
+      'https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FiJexGq40FDL66UYgzKqwWTVY44I.jpg',
+      'https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FhTdObfhl_AjLcQZp_dbe9cZGj3f.jpg', 
+    ];  
+    const currentIndex = ref(0);  
+    const currentImage = computed(() => onlineImages[currentIndex.value]);  
+    const router = useRouter();  
+  
+    const nextImage = () => {  
+      currentIndex.value = (currentIndex.value + 1) % onlineImages.length;  
+    };  
+  
+    const prevImage = () => {  
+      currentIndex.value = (currentIndex.value - 1 + onlineImages.length) % onlineImages.length;  
+    };  
+  
     const goToVideo = () => {  
       router.push('/Bofang');  
-    };
-
-    onMounted(() => {
-      startAutoPlay();
-    });
-
-    onBeforeUnmount(() => {
-      clearInterval(intervalId.value);
-    });
-
-    const startAutoPlay = () => {
-      let interval = 2000;
-
-      intervalId.value = setInterval(() => {
-        if (currentIndex.value === images.length - 1) {
-          setTimeout(() => {
-            clearInterval(intervalId.value);
-            currentIndex.value = 0;
-            setTimeout(() => {
-              startAutoPlay();
-            }, 100);
-          }, 3000);
-        } else {
-          nextImage();
-        }
-      }, interval);
-    };
-
-    return {
-      images,
-      currentIndex,
-      currentImage,
-      nextImage,
-      prevImage,
+    };  
+  
+    const startAutoPlay = () => {  
+      const interval = 2000; // 图片切换间隔  
+      const intervalId = setInterval(() => {  
+        nextImage();  
+      }, interval);  
+  
+      // 在组件卸载时清除间隔  
+      onBeforeUnmount(() => {  
+        clearInterval(intervalId);  
+      });  
+    };  
+  
+    onMounted(() => {  
+      startAutoPlay();  
+    });  
+  
+    return {  
+      currentImage,  
+      currentIndex,  
+      nextImage,  
+      prevImage,  
       goToVideo,
-    };
-  },
+      onlineImages,  
+    };  
+  },  
 };  
 </script>
 

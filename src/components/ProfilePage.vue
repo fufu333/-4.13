@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <div class="content-container">
-            <img src="../assets/images/5.jpg" class="tx">
+            <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FoJkS6BqFj-s3nboUXU6cWCX5RjN.jpg" class="tx">
             <span class="name">福福</span>
             <div class="btn-group" role="group" aria-label="...">
                 <button type="button" class="btn btn-default">修改密码</button>

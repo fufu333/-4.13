@@ -20,7 +20,7 @@
                         <div class="biao">
                             <div class="col-lg-1">
                                 <div class="nail">
-                                    <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+                                    <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
                                     <div class="caption">
                                         <span class="aa">重启之极海听雷</span>
                                         <p class="ss">朱一龙组团破妖雷迷案</p>
@@ -33,7 +33,7 @@
 
                             <div class="col-lg-1">
                                 <div class="nail">
-                                    <img src="../assets/images/4.jpg" class="qq" @click="goToVideo" alt="...">
+                                    <img src="https://www.codelover.club/files/stutasks/userID_884/currNo_29/%E7%85%A7%E7%89%87/FsxoqiO6YXKU6OUY2nyrdJSvP_7H.jpg" class="qq" @click="goToVideo" alt="...">
                                     <div class="caption">
                                         <span class="aa">重启之极海听雷</span>
                                         <p class="ss">朱一龙组团破妖雷迷案</p>
